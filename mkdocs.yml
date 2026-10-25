@@ -1,0 +1,109 @@
+site_name: Microservices Mastery Path
+site_description: A free Microservices Architecture course — decomposition, service communication, data ownership and sagas, resilience patterns, service mesh, and migrating a real monolith.
+site_url: https://sigilipelli.github.io/microservices-mastery-path/
+repo_url: https://github.com/sigilipelli/microservices-mastery-path
+repo_name: microservices-mastery-path
+
+theme:
+  name: material
+  favicon: assets/favicon.svg
+  custom_dir: docs/overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/progress-tracker.css
+
+extra_javascript:
+  - javascripts/progress-tracker.js
+
+nav:
+  - Home: index.md
+  - Privacy Policy: privacy.md
+  - License: license.md
+  - "Level 1 · Decomposition & Service Boundaries":
+      - Overview: level-1/index.md
+      - "01 · From Monolith to Microservices: Why and When to Split": level-1/01-monolith-to-microservices.md
+      - "02 · Bounded Contexts & Domain-Driven Design Basics": level-1/02-bounded-contexts-ddd.md
+      - "03 · Sizing a Service: Boundaries That Actually Hold": level-1/03-service-boundaries-sizing.md
+      - "04 · Inter-Service Communication: Synchronous vs Asynchronous": level-1/04-sync-vs-async-communication.md
+      - "05 · REST Between Services: Contracts & Versioning": level-1/05-rest-contracts-versioning.md
+      - "06 · gRPC for Service-to-Service Calls": level-1/06-grpc-service-calls.md
+      - "07 · The API Gateway Pattern": level-1/07-api-gateway-pattern.md
+      - "08 · Backend-for-Frontend (BFF)": level-1/08-backend-for-frontend.md
+      - "09 · Service Discovery": level-1/09-service-discovery.md
+      - "10 · Project — Decompose a Monolith Into Two Real Services": level-1/10-project-decompose-monolith.md
+  - "Level 2 · Data & Consistency Across Services":
+      - Overview: level-2/index.md
+      - "01 · Database-per-Service & Why Shared Databases Break Down": level-2/01-database-per-service.md
+      - "02 · Data Ownership & Avoiding Distributed Joins": level-2/02-data-ownership.md
+      - "03 · Propagating Data: Sync Lookups vs Async Events": level-2/03-data-propagation.md
+      - "04 · The Saga Pattern: Orchestration vs Choreography": level-2/04-saga-pattern.md
+      - "05 · The Outbox Pattern Without Kafka": level-2/05-outbox-pattern-polling.md
+      - "06 · Idempotency at the Application Layer": level-2/06-idempotency-application-layer.md
+      - "07 · CQRS Across Service Boundaries": level-2/07-cqrs-across-services.md
+      - "08 · Handling Partial Failures & Eventual Consistency": level-2/08-partial-failures-eventual-consistency.md
+      - "09 · Testing Data Consistency Across Services": level-2/09-testing-data-consistency.md
+      - "10 · Project — A Real Saga With a Real Compensating Transaction": level-2/10-project-real-saga.md
+  - "Level 3 · Resilience & Service Mesh":
+      - Overview: level-3/index.md
+      - "01 · Circuit Breakers: Real Failure Isolation": level-3/01-circuit-breakers.md
+      - "02 · Retries, Timeouts & Backoff Done Right": level-3/02-retries-timeouts-backoff.md
+      - "03 · Bulkheads & Resource Isolation": level-3/03-bulkheads-resource-isolation.md
+      - "04 · Rate Limiting Between Services": level-3/04-rate-limiting-between-services.md
+      - "05 · Service Mesh Fundamentals: The Sidecar Pattern": level-3/05-service-mesh-sidecar.md
+      - "06 · Traffic Management: Canary Releases at the Service Level": level-3/06-canary-traffic-management.md
+      - "07 · mTLS & Service-to-Service Security": level-3/07-mtls-service-security.md
+      - "08 · Distributed Tracing Across Services": level-3/08-distributed-tracing.md
+      - "09 · Consumer-Driven Contract Testing": level-3/09-consumer-driven-contracts.md
+      - "10 · Project — Inject Real Failures and Watch Resilience Work": level-3/10-project-inject-failures.md
+  - "Level 4 · Organizing, Migrating & Operating Microservices":
+      - Overview: level-4/index.md
+      - "01 · The Strangler Fig Pattern: Migrating a Monolith Incrementally": level-4/01-strangler-fig-pattern.md
+      - "02 · Team Topologies & Conway's Law": level-4/02-team-topologies-conways-law.md
+      - "03 · Versioning & Backward Compatibility Across Services": level-4/03-versioning-backward-compatibility.md
+      - "04 · Shared Libraries vs Code Duplication": level-4/04-shared-libraries-vs-duplication.md
+      - "05 · Deployment Strategies for Many Independent Services": level-4/05-deployment-strategies.md
+      - "06 · Observability Across Service Boundaries": level-4/06-observability-across-boundaries.md
+      - "07 · Testing Strategies in a Microservices World": level-4/07-testing-strategies.md
+      - "08 · Anti-Patterns: the Distributed Monolith & Chatty Services": level-4/08-antipatterns-distributed-monolith.md
+      - "09 · When Not to Use Microservices": level-4/09-when-not-to-use-microservices.md
+      - "10 · Capstone — Build, Break & Observe a Real Multi-Service System": level-4/10-capstone-multi-service-system.md

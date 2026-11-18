@@ -1,6 +1,6 @@
 site_name: Microservices Mastery Path
 site_description: A free Microservices Architecture course — decomposition, service communication, data ownership and sagas, resilience patterns, service mesh, and migrating a real monolith.
-site_url: https://sigilipelli.github.io/microservices-mastery-path/
+site_url: https://learnmasterypath.com/microservices-mastery-path/
 repo_url: https://github.com/sigilipelli/microservices-mastery-path
 repo_name: microservices-mastery-path
 

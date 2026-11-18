@@ -13,7 +13,7 @@ level shows, with a real database-backed saga, exactly what you do instead.
     orchestrator service and a real outbox table polled on an interval. Every piece of output shown — including a
     deliberately failed step and its compensating transaction — is real, observed output. A full enterprise event bus
     (Kafka, RabbitMQ) is intentionally not required here; see the
-    [Kafka Mastery Path](https://sigilipelli.github.io/kafka-mastery-path/) for that layer in depth.
+    [Kafka Mastery Path](https://learnmasterypath.com/kafka-mastery-path/) for that layer in depth.
 
 **Prerequisites:** Level 1, plus basic SQL comfort.
 

@@ -68,7 +68,7 @@ polling's waste for more infrastructure:
   ("customer 1's name changed"), and consumers update their local copy only when an event arrives — the staleness
   window becomes "however long event delivery takes," typically milliseconds, not a fixed poll interval. This is
   the natural next step once you have a real message broker, covered in depth in the
-  [Kafka Mastery Path](https://sigilipelli.github.io/kafka-mastery-path/).
+  [Kafka Mastery Path](https://learnmasterypath.com/kafka-mastery-path/).
 - **Change-data-capture**: tailing the owning service's database transaction log directly to produce the same kind
   of change events, without the owning service's application code needing to publish anything itself.
 

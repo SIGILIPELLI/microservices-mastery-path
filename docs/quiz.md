@@ -234,7 +234,7 @@ Implement CircuitBreaker.call with closed, open and half-open states: open after
 
 **Starter code**
 
-```yaml
+```python
 class Clock:
     def __init__(self): self.t = 0
     def now(self): return self.t
@@ -341,7 +341,7 @@ Implement run_saga: execute steps in order and, when one fails, undo the complet
 
 **Starter code**
 
-```yaml
+```python
 class Service:
     def __init__(self, name, fail_on=None):
         self.name, self.fail_on, self.ledger = name, fail_on, {}

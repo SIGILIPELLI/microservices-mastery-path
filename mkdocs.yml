@@ -53,9 +53,11 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/progress-tracker.css
+  - stylesheets/final-quiz.css
 
 extra_javascript:
   - javascripts/progress-tracker.js
+  - javascripts/final-quiz.js
 
 
 
@@ -127,3 +129,5 @@ nav:
       - "08 · Anti-Patterns: the Distributed Monolith & Chatty Services": level-4/08-antipatterns-distributed-monolith.md
       - "09 · When Not to Use Microservices": level-4/09-when-not-to-use-microservices.md
       - "10 · Capstone — Build, Break & Observe a Real Multi-Service System": level-4/10-capstone-multi-service-system.md
+  - "🎯 Final Quiz": quiz.md
+

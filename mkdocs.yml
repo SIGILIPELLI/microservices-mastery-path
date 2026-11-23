@@ -83,7 +83,7 @@ not_in_nav: |
 
 nav:
   - Home: index.md
-  - "💼 Interview Questions": interview-questions.md
+  - Interview Questions: interview-questions.md
   - "Level 1 · Decomposition & Service Boundaries":
       - Overview: level-1/index.md
       - "01 · From Monolith to Microservices: Why and When to Split": level-1/01-monolith-to-microservices.md
@@ -132,5 +132,5 @@ nav:
       - "08 · Anti-Patterns: the Distributed Monolith & Chatty Services": level-4/08-antipatterns-distributed-monolith.md
       - "09 · When Not to Use Microservices": level-4/09-when-not-to-use-microservices.md
       - "10 · Capstone — Build, Break & Observe a Real Multi-Service System": level-4/10-capstone-multi-service-system.md
-  - "🎯 Final Quiz": quiz.md
+  - Final Quiz: quiz.md
 

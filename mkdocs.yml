@@ -77,11 +77,13 @@ extra:
     - name: "Kubernetes"
       url: https://learnmasterypath.com/kubernetes-mastery-path/
 
+not_in_nav: |
+  privacy.md
+  license.md
+
 nav:
   - Home: index.md
   - "💼 Interview Questions": interview-questions.md
-  - Privacy Policy: privacy.md
-  - License: license.md
   - "Level 1 · Decomposition & Service Boundaries":
       - Overview: level-1/index.md
       - "01 · From Monolith to Microservices: Why and When to Split": level-1/01-monolith-to-microservices.md

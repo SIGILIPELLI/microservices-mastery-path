@@ -1,6 +1,6 @@
 ---
 title: "Free Microservices Architecture Course: Decomposition, Sagas, Resilience & Service Mesh"
-description: "Free microservices course: 40 lessons on decomposition, sagas, data ownership, circuit breakers, service mesh, and migrating a monolith."
+description: "Free microservices course: 36 lessons and 4 projects on decomposition, sagas, data ownership, circuit breakers, service mesh, and migrating a monolith."
 ---
 
 # Microservices Mastery Path
@@ -35,7 +35,7 @@ keep it resilient once it's split.
 | **3 · Resilience & Service Mesh** | Circuit breakers, retries/timeouts/backoff, bulkheads, rate limiting, the sidecar pattern, mTLS, distributed tracing, contract testing | 10 | Build services that fail safely and recover on their own |
 | **4 · Organizing, Migrating & Operating Microservices** | Strangler fig migration, team topologies, versioning, deployment strategies, observability, anti-patterns, when *not* to use microservices | 10 | Plan a real monolith-to-microservices migration |
 
-Each level has 9 teaching modules plus a hands-on project (module 10), for **40 lessons** total.
+Each level has 9 teaching modules plus a hands-on project (module 10), which makes **36 lessons and 4 projects** in total.
 
 ## How to use this site
 
